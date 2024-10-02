@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    height: 200px;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer img{
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.logoContainer span:nth-child(2){
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.logoContainer span:nth-child(3){
+    color: var(--purple-dark);
+    font-weight: bold;
+    font-size: 2.25rem;
+}
